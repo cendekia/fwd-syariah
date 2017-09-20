@@ -18,9 +18,10 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 class HomeScreen extends Component {
   static navigationOptions = {
+    title: 'Dashboard',
     header: <Header
-      title="FWD Life"
-      subTitle="Syariah"
+      title="Dashboard"
+      subTitle="FWD Life Syariah"
       {...this.props}
     />,
   };

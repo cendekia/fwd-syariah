@@ -18,7 +18,11 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 class HomeScreen extends Component {
   static navigationOptions = {
-    header: null,
+    header: <Header
+      title="FWD Life"
+      subTitle="Syariah"
+      {...this.props}
+    />,
   };
 
   render() {
@@ -26,11 +30,6 @@ class HomeScreen extends Component {
 
     return (
       <Container>
-        <Header
-          title="FWD Life"
-          subTitle="Syariah"
-          {...props}
-        />
         <Content style={{margin: 8}}>
           <Row>
             <Card>

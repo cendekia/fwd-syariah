@@ -7,7 +7,7 @@ import Colors from '../constants/Colors';
 
 import HomeScreen from '../screens/HomeScreen';
 import ProductsScreen from '../screens/ProductsScreen';
-import SettingsScreen from '../screens/SettingsScreen';
+import HelpScreen from '../screens/HelpScreen';
 
 export default TabNavigator(
   {
@@ -17,8 +17,8 @@ export default TabNavigator(
     Products: {
       screen: ProductsScreen,
     },
-    Settings: {
-      screen: SettingsScreen,
+    Help: {
+      screen: HelpScreen,
     },
   },
   {
@@ -37,10 +37,10 @@ export default TabNavigator(
               ? `ios-paper${focused ? '' : '-outline'}`
               : 'md-paper';
             break;
-          case 'Settings':
+          case 'Help':
             iconName = Platform.OS === 'ios'
-              ? `ios-options${focused ? '' : '-outline'}`
-              : 'md-options';
+              ? `ios-chatbubbles${focused ? '' : '-outline'}`
+              : 'md-chatbubbles';
         }
         return (
           <Ionicons

@@ -59,7 +59,7 @@ class DefaultHeader extends Component {
         { this.props.leftButton && renderLeft(this.props.leftButton)}
 
         <Body style={{ height: Platform.OS ==='android' ? 25 + STATUS_BAR_HEIGHT : 35 }}>
-          <Title style={{ color: "#FFF" }}>{this.props.title}</Title>
+          <Title style={{ color: "#FFF", width: 200 }}>{this.props.title}</Title>
           <Subtitle style={{ color: "#FFF", width: 200 }}>{this.props.subTitle}</Subtitle>
         </Body>
 

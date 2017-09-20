@@ -36,7 +36,7 @@ class HomeScreen extends Component {
             <Card>
                 <CardItem style={{ backgroundColor: "lightseagreen" }}>
                   <Body>
-                    <Title style={{ fontSize: 20, color: "#fff" }}>Total Asset Syariah</Title>
+                    <Title style={{ fontSize: 20, color: "#fff" }}>Total Asset Sharia</Title>
                     <Text style={{ fontSize: 14, color: "#fff" }}>IDR</Text>
                     <Text style={{ fontSize: 50, color: "#fff", alignSelf: 'flex-end' }}>
                       26.598
@@ -125,7 +125,7 @@ class HomeScreen extends Component {
             <Card>
               <CardItem style={{ backgroundColor: "#12afc0" }}>
                 <Body>
-                  <Title style={{ fontSize: 20, color: "#fff" }}>Reksa Dana Syariah</Title>
+                  <Title style={{ fontSize: 20, color: "#fff" }}>Reksa Dana Sharia</Title>
                   <Text style={{ fontSize: 14, color: "#fff" }}>IDR</Text>
                   <Text style={{ fontSize: 50, color: "#fff", alignSelf: 'flex-end' }}>
                     9.239

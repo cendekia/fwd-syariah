@@ -8,7 +8,7 @@ export default class ProductsScreen extends Component {
   static navigationOptions = {
     header: <Header
       title="Products"
-      subTitle="FWD Life Syariah"
+      subTitle="FWD Life Sharia"
       {...this.props}
     />,
   };

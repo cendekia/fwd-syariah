@@ -21,7 +21,7 @@ class HomeScreen extends Component {
     title: 'Dashboard',
     header: <Header
       title="Dashboard"
-      subTitle="FWD Life Syariah"
+      subTitle="FWD Life Sharia"
       {...this.props}
     />,
   };

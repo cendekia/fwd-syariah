@@ -7,7 +7,7 @@ export default class HelpScreen extends Component {
     title: "Customer Care",
     header: <Header
       title="Customer Care"
-      subTitle="FWD Life Syariah"
+      subTitle="FWD Life Sharia"
       {...this.props}
     />,
   };
